@@ -44,8 +44,7 @@ DB_PORT=5432
 DB_NAME=budget_analyzer #you may choose a different one
 DB_USER=your_postgres_user #you may choose a different one
 DB_PASSWORD=your_postgres_password #you may choose a different one
-OPENROUTER_API_KEY=your_openrouter_api_key
-# Optional: Define your preferred routing model
+OPENROUTER_API_KEY=your_openrouter_api_key #get from https://openrouter.ai > Settings (after signup)
 LLM_MODEL=meta-llama/llama-3-70b-instruct:free #you may choose a different one
 ```
 
