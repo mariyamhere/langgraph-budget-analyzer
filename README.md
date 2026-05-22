@@ -1,4 +1,4 @@
-# langgraph-budget-analyzer
+# LangGraph Invoice/Budget Analyzer
 
 I made this automated budget analyzer to help me track my expenses. To use this, you add all your monthly expense invoices in the pdf_invoices folder. It prompts you to add your monthly budget in the terminal and then it tells you how much of your monthly budget you've exhausted (also with a cool chart) and which your top paid vendors are this month.
 
@@ -22,3 +22,9 @@ cd langgraph-budget-analyzer
 bashpython -m venv venv
 source venv/bin/activate
 ```
+
+Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
