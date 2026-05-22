@@ -2,11 +2,11 @@
 
 I made this automated budget analyzer to help me track my expenses. To use this, you add all your monthly/yearly expense invoices in the pdf_invoices folder. It prompts you to add your monthly/yearly budget in the terminal and then it tells you how much of your monthly budget you've exhausted (also with a cool chart) and which your top paid vendors are this month.
 
-
+![Alt text description](budget_chart.png)
 
 It uses LangGraph agents to extract financial metrics from markdown invoices into PostgreSQL with concurrent LLM processing and performance tracking.
 
-# Prerequisites
+## Prerequisites
 
 Before starting, ensure you have the following installed:
 
@@ -15,7 +15,7 @@ PostgreSQL 14+ (running locally or via a cloud provider)
 pip and venv
 An OpenRouter account and API key
 
-# Installation
+## Installation
 
 Clone the repository, Create and Activate a Virtual Environment (Ubuntu)
 ```bash
@@ -29,7 +29,7 @@ Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-# Creating Secret Variables
+## Creating Secret Variables
 
 Populate your .env file
 ```bash
@@ -43,7 +43,7 @@ OPENROUTER_API_KEY=your_openrouter_api_key
 LLM_MODEL=meta-llama/llama-3-70b-instruct:free #you may choose a different one
 ```
 
-# PDF Addition
+## PDF Addition
 
 Create a pdf_invoices folder in your project's base directory and drop your target invoices inside
 ```bash
