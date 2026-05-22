@@ -1,16 +1,16 @@
 # LangGraph Invoice/Budget Analyzer
 
-I made this automated budget analyzer to help me track my expenses. To use this, you add all your monthly/yearly expense invoices in the pdf_invoices folder. It prompts you to add your monthly/yearly budget in the terminal and then it tells you how much of your monthly budget you've exhausted (also with a cool chart) and which your top paid vendors are this month.
+I made this automated budget analyzer to help me track my expenses. To use this, you add all your yearly expense invoices in the pdf_invoices folder. It prompts you to add your yearly budget in the terminal and then it tells you how much of your monthly budget you've exhausted (also with a cool chart) and which your top paid vendors are this month.
 
-## Terminal Output
-
-![Alt text description](terminal_output.png)
+It uses a **LangGraph** agent to extract financial metrics from markdown invoices into PostgreSQL with **concurrent LLM processing** and performance tracking.
 
 ## Visual
 
 ![Alt text description](budget_chart.png)
 
-It uses LangGraph agents to extract financial metrics from markdown invoices into PostgreSQL with concurrent LLM processing and performance tracking.
+## Final Output
+
+![Alt text description](terminal_output.png)
 
 ## Prerequisites
 
