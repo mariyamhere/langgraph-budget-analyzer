@@ -28,7 +28,7 @@ Before starting, ensure you have the following installed:
 - pip and venv
 - An OpenRouter account and API key
 
-## Installation
+## Installation on Linux (Ubuntu)
 
 Clone the repository, Create and Activate a Virtual Environment (Ubuntu)
 ```bash
@@ -55,7 +55,7 @@ OPENROUTER_API_KEY=your_openrouter_api_key #get from https://openrouter.ai > Set
 LLM_MODEL=meta-llama/llama-3-70b-instruct:free #you may choose a different one
 ```
 
-## PDF Addition
+## Adding Your PDFs
 
 Create a pdf_invoices folder in your project's base directory and drop your target invoices inside
 ```bash
@@ -73,6 +73,8 @@ python3 main.py
 #make sure you're in the respective directory
 
 ```
+
+## What You See on the Terminal
 
 Write your budget and click Enter to see your most expensive purchases and track how much balance you've remaining after your paid invoices.
 
